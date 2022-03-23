@@ -44,4 +44,5 @@ git log --oneline<br/>
 git diff<br/>
 比较差异
 
-git diff -- staged
+git diff --staged<br/>
+显示暂存区与上一次提交的差异
