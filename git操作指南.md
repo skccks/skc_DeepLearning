@@ -46,3 +46,22 @@ git diff<br/>
 
 git diff --staged<br/>
 显示暂存区与上一次提交的差异
+
+git reset --hard head^
+版本回退,回到上次commit的内容，无版本记录
+
+git checkout hash 文件名
+回到旧版本，有版本记录
+
+git stash<br/>
+将目前还不想提交的但是已经修改额内容保存至堆栈，后续可以在某个分支恢复出堆栈的内容
+
+git merge 分支1<br/>
+合并分支：将分支1上的内容合并到当前分支<br/>
+解决合并冲突后使用<br/>
+git add .<br/>
+git commit<br/>
+后面会出现一个记录文档，在文档里记录就行，文档为vim编辑 
+
+git merge --abort<br/>
+忽略合并，当合并发生冲突的时候可使用，回到未合并之前的状态 
